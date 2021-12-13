@@ -1,0 +1,18 @@
+{
+  "name": "eslint-das",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && tape test/*.js"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8"
+  },
+  "peerDependencies": {
+    "eslint": "^8"
+  }
+}
