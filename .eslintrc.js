@@ -24,7 +24,7 @@ module.exports = {
     'object-curly-spacing': [1, 'always'],
     'array-bracket-spacing': [1, 'never'],
     'comma-dangle': [1, 'always-multiline'],
-    indent: [1, 2],
+    indent: [1, 2, { SwitchCase: 1 }],
     'quote-props': [1, 'as-needed'],
     'arrow-parens': [2, 'as-needed'],
     'key-spacing': [2, {
