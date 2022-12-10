@@ -1,6 +1,8 @@
 module.exports = {
   extends: [
     require.resolve('eslint-config-standard'),
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
   ],
   parserOptions: {
     sourceType: 'module',
@@ -9,6 +11,11 @@ module.exports = {
     },
   },
   root: true,
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   rules: {
     'no-shadow': [2],
     semi: [1, 'always'],

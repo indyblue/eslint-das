@@ -7,7 +7,8 @@
     "test": "npm run lint && tape test/*.js"
   },
   "dependencies": {
-    "eslint-config-standard": "^16.0.3"
+    "eslint-config-standard": "^17",
+    "eslint-plugin-react": "^7"
   },
   "devDependencies": {
     "eslint": "^8"
