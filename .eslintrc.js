@@ -44,5 +44,6 @@ module.exports = {
     }],
     'no-return-assign': 0,
     'no-control-regex': 0,
+    'react/prop-types': 0,
   },
 };
